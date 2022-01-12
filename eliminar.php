@@ -1,9 +1,4 @@
-<?PHP
-require 'conn.php';
-$sentencia=$bd->query(" SELECT * FROM producto");
-$prueba=$sentencia->fetchAll(PDO::FETCH_OBJ);
-?>
-       <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -16,23 +11,7 @@ $prueba=$sentencia->fetchAll(PDO::FETCH_OBJ);
     <title>Hello, world!</title>
   </head>
   <body>
-  <div class="container-fluid">
-             <span class="navbar-text">
-                  <div class="container-fluid">
-                       <select class="form-select" id="select_cat" aria-label="Default select example">
-                           <option value="">Selecciona una Categoria</option>
-                           <?php 
-                            require 'conexion.php';
-                            $consulta="select * from categoria";
-                            $ejecutar=mysqli_query($mysqli,$consulta) or die(mysqli_error($mysqli))
-                              ?>
-                            <?php foreach ($ejecutar as $opciones):?>
-                            <option value="<?php echo $opciones['nombre']?>"><?php echo $opciones['nombre']?></option>
-                            <?php endforeach ?>
-                      </select>
-                  </div>
-             </span>
-       </div>
+    <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
