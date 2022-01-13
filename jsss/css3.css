@@ -97,10 +97,10 @@
 
 .containerTarg .contentss button{
 	position: absolute;
-	top: 40%;
-	width: 100px;
+	top: 1%;
+	width: 200px;
 	height: 25px;
-	margin: -25px;/* ajusta la posicion del botton si es menor que se va ala derecha */
+	margin: -80px;/* ajusta la posicion del botton si es menor que se va ala derecha */
 	border: 2px solid black;
 	background-color: rgba(180, 0, 136, 0.3);
 	color: black;
@@ -111,7 +111,7 @@
 }
 .containerTarg .contentss{
 	position: absolute;
-	top: 95%;/* ajusta la posicion del boton(arriba o abajo) */
+	top: 115%;/* ajusta la posicion del boton(arriba o abajo) */
 	width: 160px;
 	height: auto;
 	margin-left: 20px;
@@ -133,3 +133,6 @@
 }
 
  /* -----------------------fin de codigo para buscador---------------------- */
+.row {
+	align-content: center;
+}
