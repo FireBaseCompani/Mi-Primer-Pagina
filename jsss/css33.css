@@ -4,7 +4,7 @@
 	height: 250px;/* tarjeta principal donde contiene la imagen */
 	box-shadow: 0 4px  8px 0 rgb(0, 0, 0,0.5);
 	position: relative;
-	margin-left: 60px;
+	margin-left: 5px;
 	margin-top: 5%;
 }
 

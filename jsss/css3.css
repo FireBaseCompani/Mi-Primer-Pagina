@@ -4,7 +4,7 @@
 	height: 250px;/* tarjeta principal donde contiene la imagen */
 	box-shadow: 0 4px  8px 0 rgb(0, 0, 0,0.5);
 	position: relative;
-	margin-left: 60px;
+	margin-left: 20px;
 	margin-top: 5%;
 }
 
@@ -70,7 +70,7 @@
  	display: flex;
  	justify-content: center;
  	flex-wrap: wrap;
- 	margin-top:10px;
+ 	margin-top:5px;
  }
  .empty{/* y este codigo es para ajustar el color y tamaño de la diagonal */
 	position: absolute;
